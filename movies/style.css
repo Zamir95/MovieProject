@@ -94,7 +94,7 @@ li:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     min-width: 0;
-    background-color: green;
+    background-color: blue;
 }
 
 .movie-list__add-movie {
@@ -139,16 +139,16 @@ li:hover {
     transition: 0.5s all;
 }
 
-.movie-list__movie-item:hover {
+/* .movie-list__movie-item:hover {
     border-color: #0D7B75;
-}
+} */
 
 .movie-logo {
     text-align: center;
     margin: auto;
     padding: 10px;
     width: 200px;
-    color: #0D7B75;
+    /* color: #0D7B75; */
 }
 
 .movie-description {
@@ -161,7 +161,7 @@ li:hover {
 
 .movie-rating {
     padding: 5px 0;
-    color: #0D7B75;
+    color: white;
 }
 
 /*Add movie modal box*/
@@ -180,9 +180,9 @@ li:hover {
 
 .movie__modal-content {
     width: 50%;
-    height: 70%;
+    height: 50%;
     margin: 5% auto;
-    background-color: green;
+    background-color: blue;
     animation-name: open-modal-content;
     animation-duration: 1s;
 }
